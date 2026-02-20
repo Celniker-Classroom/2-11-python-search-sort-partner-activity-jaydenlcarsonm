@@ -9,7 +9,7 @@ print("Generated List:", ranNums) #print the list!
 
 biggest = ranNums[0]
 for index in range(1, len(ranNums)):
-   if ranNums[index] < biggest:
+   if ranNums[index] > biggest:
        biggest  = ranNums[index]
 
 print("The largest number in the list is:", biggest)
